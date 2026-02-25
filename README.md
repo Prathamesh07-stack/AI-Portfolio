@@ -14,10 +14,25 @@ My journey learning Artificial Intelligence from the ground up. This repository 
 
 ---
 
+### [02. LLM Internals from Scratch](./project_2_llm_internals/)
+**Goal:** Understand exactly how LLMs work by running five experiments from the inside.
+- **Concepts:** Tokenization, Embeddings, Attention, Text Generation, LoRA Fine-Tuning.
+- **Tech Stack:** HuggingFace Transformers, sentence-transformers, PEFT.
+- **Result:** Trained a LoRA adapter, visualized attention heads, compared base vs fine-tuned outputs.
+
+---
+
+### [03. RAG from Scratch – Internals](./project_3_rag_internals/)
+**Goal:** Build a full Retrieval-Augmented Generation pipeline to understand how retrieval improves LLM answers.
+- **Concepts:** Vector Embeddings, Cosine Similarity, FAISS Vector DB, Chunking, Hallucination Analysis.
+- **Tech Stack:** sentence-transformers (`all-MiniLM-L6-v2`), FAISS, Ollama (local LLM).
+- **Result:** Built end-to-end RAG system, compared RAG vs no-RAG on 15 questions across 2 chunk sizes.
+
+---
+
 ## 🚀 Upcoming Projects
-2. **Convolutional Neural Networks (CNNs)** - Custom Image Classifier
-3. **Natural Language Processing (NLP)** - Sentiment Analysis Bot
-4. **Transformers** - Text Generation
+4. **Convolutional Neural Networks (CNNs)** - Custom Image Classifier
+5. **Natural Language Processing (NLP)** - Sentiment Analysis Bot
 
 ---
 
