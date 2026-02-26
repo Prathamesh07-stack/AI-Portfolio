@@ -1,0 +1,80 @@
+[
+  {
+    "question": "What is Retrieval-Augmented Generation (RAG) and how does it work?",
+    "topic": "RAG basics",
+    "answerable_from_docs": true
+  },
+  {
+    "question": "What are the two main phases of a RAG pipeline?",
+    "topic": "RAG pipeline",
+    "answerable_from_docs": true
+  },
+  {
+    "question": "What is cosine similarity and how is it used in semantic search?",
+    "topic": "Embeddings",
+    "answerable_from_docs": true
+  },
+  {
+    "question": "Why are Transformers more effective than RNNs for language tasks?",
+    "topic": "Transformers",
+    "answerable_from_docs": true
+  },
+  {
+    "question": "What is the difference between a Query, Key, and Value in self-attention?",
+    "topic": "Attention mechanism",
+    "answerable_from_docs": true
+  },
+  {
+    "question": "What is the sentence-transformers model all-MiniLM-L6-v2 and what are its specs?",
+    "topic": "Embedding models",
+    "answerable_from_docs": true
+  },
+  {
+    "question": "What are the trade-offs between small and large chunk sizes in RAG?",
+    "topic": "Chunking",
+    "answerable_from_docs": true
+  },
+  {
+    "question": "Why do large language models hallucinate, even when they are confident?",
+    "topic": "Hallucinations",
+    "answerable_from_docs": true
+  },
+  {
+    "question": "What is LoRA and how does it reduce fine-tuning cost?",
+    "topic": "Fine-tuning",
+    "answerable_from_docs": true
+  },
+  {
+    "question": "What is FAISS IndexFlatIP and when should you use it?",
+    "topic": "Vector databases",
+    "answerable_from_docs": true
+  },
+  {
+    "question": "What is the difference between FAISS and Chroma as vector databases?",
+    "topic": "Vector databases",
+    "answerable_from_docs": true
+  },
+  {
+    "question": "When should you use RAG instead of fine-tuning an LLM?",
+    "topic": "RAG vs fine-tuning",
+    "answerable_from_docs": true
+  },
+  {
+    "question": "What were the exact GPU specifications used to train GPT-4?",
+    "topic": "LLM training infrastructure",
+    "answerable_from_docs": false,
+    "note": "This fact is not in our docs - expect hallucination from no-RAG LLM"
+  },
+  {
+    "question": "What is the exact recall score of all-MiniLM-L6-v2 on the BEIR benchmark?",
+    "topic": "Benchmark scores",
+    "answerable_from_docs": false,
+    "note": "Specific benchmark numbers not in docs - expect hallucination"
+  },
+  {
+    "question": "Who are the co-founders of Chroma and when was it founded?",
+    "topic": "Company history",
+    "answerable_from_docs": false,
+    "note": "Not covered in our docs - LLM will fabricate or admit it doesn't know"
+  }
+]

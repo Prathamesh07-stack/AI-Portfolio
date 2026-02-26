@@ -22,6 +22,11 @@ results/
 *.jpg
 *.jpeg
 
+# Project 3 - RAG generated outputs
+vector_store/
+eval_results/
+*.faiss
+
 # IDEs
 .vscode/
 .idea/
