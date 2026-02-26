@@ -86,7 +86,7 @@ def main():
     print("STEP 2: Chunking Experiments")
     print("=" * 60)
 
-    docs = load_documents("docs")
+    docs = load_documents("../docs")
 
     configs = [
         ("SMALL",  200, 30),

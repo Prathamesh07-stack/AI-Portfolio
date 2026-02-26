@@ -112,7 +112,7 @@ def build_and_save(chunk_config: dict, model):
     overlap = chunk_config['overlap']
 
     print(f"\n--- Building index for: {label} (size={size}, overlap={overlap}) ---")
-    docs = load_documents("docs")
+    docs = load_documents("../docs")
     chunks = chunk_documents(docs, size=size, overlap=overlap)
     print(f"  Chunks: {len(chunks)}")
 

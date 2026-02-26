@@ -30,7 +30,7 @@ def normalize_text(text: str) -> str:
     return text.strip()
 
 
-def load_documents(docs_dir: str = "docs") -> list[dict]:
+def load_documents(docs_dir: str = "../docs") -> list[dict]:
     """
     Load all .md and .txt files from docs_dir.
 
@@ -80,7 +80,7 @@ def main():
     print("STEP 1: Document Ingestion")
     print("=" * 60)
 
-    docs = load_documents("docs")
+    docs = load_documents("../docs")
 
     print(f"\nLoaded {len(docs)} documents:\n")
     total_words = 0
